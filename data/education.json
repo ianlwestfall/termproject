@@ -1,61 +1,50 @@
 {
-    "education": [
-      {
-        "institution": "Boston University",
-        "degree": "Masters of Science in Software Development",
-        "courses": [
-          {
-            "code": "MET CS 520",
-            "name": "Information Structures with Java",
-            "description": "This course covers the concepts of object-oriented approach to software design and development using the Java programming language. It includes a detailed discussion of programming concepts starting with the fundamentals of data types, control structures methods, classes, applets, arrays and strings, and proceeding to advanced topics such as inheritance and polymorphism, interfaces, creating user interfaces, exceptions, and streams. Upon completion of this course the students will be able to apply software engineering criteria to design and implement Java applications that are secure, robust, and scalable."
-          },
-          {
-            "code": "MET CS 526",
-            "name": "Data Structures and Algorithms",
-            "description": "This course covers and relates fundamental components of programs. Students use various data structures to solve computational problems, and implement data structures using a high-level programming language. Algorithms are created, decomposed, and expressed as pseudocode. The running time of various algorithms and their computational complexity are analyzed."
-          },
-          {
-            "code": "MET CS 622",
-            "name": "Advanced Programming Techniques",
-            "description": "Polymorphism, containers, libraries, method specifications, large-scale code management, use of exceptions, concurrent programming, functional programming, programming tests. Java will be used to illustrate these concepts. Students will implement a project or projects of their own choosing, in Java, since some concepts are expressible only in Java."
-          },
-          {
-            "code": "MET CS 665",
-            "name": "Software Design and Patterns",
-            "description": "Software design principles, the object-oriented paradigm, unified modeling language; creational, structural, and behavioral design patterns; OO analysis and design; implementation of semester project."
-          },
-          {
-            "code": "MET CS 682",
-            "name": "Information Systems Analysis and Design",
-            "description": "Object-oriented methods of information systems analysis and design for organizations with data-processing needs. System feasibility; requirements analysis; database utilization; Unified Modeling Language; software system architecture, design, and implementation, management; project control; and systems-level testing."
-          },
-          {
-            "code": "MET CS 601",
-            "name": "Web Application Development",
-            "description": "This course focuses on building core competencies in web design and development. It begins with a complete immersion into HTML essentially XHTML and Dynamic HTML (DHTML). Students are exposed to Cascading Style Sheets (CSS), as well as Dynamic CSS. The fundamentals of JavaScript language including object-oriented JavaScript is covered comprehensively. AJAX with XML and JSON are covered, as they are the primary means to transfer data from client and server."
-          },
-          {
-            "code": "MET CS 602",
-            "name": "Server-Side Web Development",
-            "description": "The Server-Side Web Development course concentrates primarily on building web applications using PHP/MySQL and Node.js/MongoDB. The course is divided into various modules covering in depth the following topics: PHP, MySQL, Object oriented PHP, PHP MVC, Secure Web applications, Node.js and MongoDB. Along with the fundamentals underlying these technologies, several applications will be showcased as case studies. Students work with these technologies starting with simple applications and then examining real world complex applications. At the end of this course, students would have mastered the web application development on the server-side."
-          },
-          {
-            "code": "MET CS 701",
-            "name": "Rich Internet Application Development",
-            "description": "The Rich Internet Application (RIA) Development course concentrates primarily on building rich client web applications in the browser for desktop and mobile devices. The course is divided into various modules covering in depth the following technologies: HTML5, AngularJS, and Ionic framework. Along with the fundamentals underlying these technologies, several applications will be showcased as case studies. Students work with these technologies starting with simple applications and then examining real world complex applications. At the end of this course, students would have mastered the latest and widely used RIA methodologies."
-          }
-        ]
-      },
-      {
-        "institution": "Boston University",
-        "degree": "Graduate Certificate in Web Application Development",
-        "status": "Classes will be added soon."
-      },
-      {
-        "institution": "Eastern Illinois University",
-        "degree": "Bachelor of Science in Computers and Information Technology",
-        "status": "Classes will be added soon."
-      }
-    ]
-  }
-  
+  "education": [
+    {
+      "school": "Boston University",
+      "degree": "Masters of Science in Software Development",
+      "courses": [
+        {
+          "courseNumber": "MET CS 520",
+          "courseName": "Information Structures with Java",
+          "description": "This course covers the concepts of object-oriented approach to software design and development using the Java programming language. It includes a detailed discussion of programming concepts starting with the fundamentals of data types, control structures methods, classes, applets, arrays and strings, and proceeding to advanced topics such as inheritance and polymorphism, interfaces, creating user interfaces, exceptions, and streams. Upon completion of this course the students will be able to apply software engineering criteria to design and implement Java applications that are secure, robust, and scalable."
+        },
+        {
+          "courseNumber": "MET CS 526",
+          "courseName": "Data Structures and Algorithms",
+          "description": "This course covers and relates fundamental components of programs. Students use various data structures to solve computational problems, and implement data structures using a high-level programming language. Algorithms are created, decomposed, and expressed as pseudocode. The running time of various algorithms and their computational complexity are analyzed."
+        },
+        {
+          "courseNumber": "MET CS 622",
+          "courseName": "Advanced Programming Techniques",
+          "description": "Polymorphism, containers, libraries, method specifications, large-scale code management, use of exceptions, concurrent programming, functional programming, programming tests. Java will be used to illustrate these concepts. Students will implement a project or projects of their own choosing, in Java, since some concepts are expressible only in Java."
+        },
+        {
+          "courseNumber": "MET CS 665",
+          "courseName": "Software Design and Patterns",
+          "description": "Software design principles, the object-oriented paradigm, unified modeling language; creational, structural, and behavioral design patterns; OO analysis and design; implementation of semester project."
+        },
+        {
+          "courseNumber": "MET CS 682",
+          "courseName": "Information Systems Analysis and Design",
+          "description": "Object-oriented methods of information systems analysis and design for organizations with data-processing needs. System feasibility; requirements analysis; database utilization; Unified Modeling Language; software system architecture, design, and implementation, management; project control; and systems-level testing."
+        },
+        {
+          "courseNumber": "MET CS 601",
+          "courseName": "Web Application Development",
+          "description": "This course focuses on building core competencies in web design and development. It begins with a complete immersion into HTML essentially XHTML and Dynamic HTML (DHTML). Students are exposed to Cascading Style Sheets (CSS), as well as Dynamic CSS. The fundamentals of JavaScript language including object-oriented JavaScript is covered comprehensively. AJAX with XML and JSON are covered, as they are the primary means to transfer data from client and server."
+        },
+        {
+          "courseNumber": "MET CS 602",
+          "courseName": "Server-Side Web Development",
+          "description": "The Server-Side Web Development course concentrates primarily on building web applications using PHP/MySQL and Node.js/MongoDB. The course is divided into various modules covering in depth the following topics: PHP, MySQL, Object oriented PHP, PHP MVC, Secure Web applications, Node.js and MongoDB. Along with the fundamentals underlying these technologies, several applications will be showcased as case studies. Students work with these technologies starting with simple applications and then examining real world complex applications. At the end of this course, students would have mastered the web application development on the server-side."
+        },
+        {
+          "courseNumber": "MET CS 701",
+          "courseName": "Rich Internet Application Development",
+          "description": "The Rich Internet Application (RIA) Development course concentrates primarily on building rich client web applications in the browser for desktop and mobile devices. The course is divided into various modules covering in depth the following technologies: HTML5, AngularJS, and Ionic framework. Along with the fundamentals underlying these technologies, several applications will be showcased as case studies. Students work with these technologies starting with simple applications and then examining real world complex applications. At the end of this course, students would have mastered the latest and widely used RIA methodologies."
+        }
+      ]
+    }
+  ]
+}
