@@ -1,0 +1,43 @@
+.education {
+    flex: 4 1 600px;
+    padding: 20px;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.classes {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.classes::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: url('../../../public/images/bu_logo.png') no-repeat;
+    background-size: contain;
+}
+
+.classes:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.classes:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgba(245, 236, 217, 1);
+}
+
+h3~p {
+    color: darkgrey;
+}

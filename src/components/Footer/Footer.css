@@ -1,0 +1,15 @@
+footer {
+  background-color: rgb(204, 204, 204);
+  text-align: center;
+}
+
+.footer-image {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 80px;
+  margin: 20px;
+}
