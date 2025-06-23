@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 .home-container {
   display: flex;
   align-items: center;
